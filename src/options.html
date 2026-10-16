@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title data-i18n="optTitle"></title>
+  <style>
+    body { font-family: system-ui, "Segoe UI", sans-serif; margin: 16px; color: #1a1a1a; line-height: 1.45; max-width: 560px; }
+    h1 { font-size: 1.15rem; margin: 0 0 14px; }
+    label.block { display: block; font-weight: 600; margin: 0 0 6px; }
+    select { width: 100%; padding: 7px 8px; border: 1px solid #c8c8c8; border-radius: 6px; font: inherit; background: #fff; }
+    .check { display: flex; gap: 8px; align-items: flex-start; font-weight: 600; margin-top: 16px; }
+    .check input { margin-top: 4px; }
+    .hint { color: #666; font-size: .86rem; margin: 4px 0 0 24px; }
+    .privacy { color: #555; font-size: .84rem; border-top: 1px solid #e3e3e3; margin-top: 18px; padding-top: 10px; }
+    button { margin-top: 16px; background: #2b6cb0; color: #fff; border: 0; border-radius: 6px; padding: 8px 18px; font: inherit; font-weight: 600; cursor: pointer; }
+    #status { margin-left: 10px; color: #18794e; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <h1 data-i18n="optTitle"></h1>
+  <label class="block" for="targetLanguage" data-i18n="optTarget"></label>
+  <select id="targetLanguage"></select>
+  <label class="check"><input type="checkbox" id="unwrap"><span data-i18n="optUnwrap"></span></label>
+  <p class="hint" data-i18n="optUnwrapHint"></p>
+  <button id="save" data-i18n="optSave"></button><span id="status"></span>
+  <p class="privacy" data-i18n="optPrivacy"></p>
+  <script src="options.js"></script>
+</body>
+</html>

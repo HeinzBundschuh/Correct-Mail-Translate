@@ -1,0 +1,56 @@
+{
+  "extName": {
+    "message": "Correct Mail Translate"
+  },
+  "extDescription": {
+    "message": "Translates selected text or the whole message via the context menu on the Google Translate website. Hard-wrapped lines are joined into whole sentences first. The text is passed to translate.google.com."
+  },
+  "menuSelection": {
+    "message": "Translate with Google: “%s”"
+  },
+  "menuMessage": {
+    "message": "Translate whole message with Google"
+  },
+  "menuListMessage": {
+    "message": "Translate message with Google"
+  },
+  "notifyTitle": {
+    "message": "Correct Mail Translate"
+  },
+  "notifyClipboard": {
+    "message": "The text is too long to pass directly ($1 characters). It has been copied to the clipboard – paste it on the Google page with Ctrl+V."
+  },
+  "notifyTooLong": {
+    "message": "Note: the Google website translates at most 5,000 characters at a time. The text ($1 characters) has been copied to the clipboard – paste it in parts if needed."
+  },
+  "notifyNoText": {
+    "message": "No text to translate was found."
+  },
+  "notifyError": {
+    "message": "Error: $1"
+  },
+  "optTitle": {
+    "message": "Correct Mail Translate – Settings"
+  },
+  "optTarget": {
+    "message": "Target language"
+  },
+  "optTargetAuto": {
+    "message": "Same as Thunderbird ($1)"
+  },
+  "optUnwrap": {
+    "message": "Join hard-wrapped lines into whole sentences"
+  },
+  "optUnwrapHint": {
+    "message": "Plain-text emails are often wrapped at about 72 characters. Joined, Google translates whole sentences instead of line fragments."
+  },
+  "optPrivacy": {
+    "message": "Privacy: the text is passed to translate.google.com only when you click a menu entry, and is translated there in your browser. The add-on itself does not store or send any data."
+  },
+  "optSaved": {
+    "message": "Saved ✓"
+  },
+  "optSave": {
+    "message": "Save"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "extName": {
+    "message": "Correct Mail Translate"
+  },
+  "extDescription": {
+    "message": "Übersetzt markierten Text oder die ganze Nachricht über das Kontextmenü auf der Google-Übersetzer-Webseite. Hart umbrochene Zeilen werden vorher zu ganzen Sätzen zusammengefügt. Der Text wird an translate.google.com übergeben."
+  },
+  "menuSelection": {
+    "message": "Mit Google übersetzen: „%s“"
+  },
+  "menuMessage": {
+    "message": "Ganze Nachricht mit Google übersetzen"
+  },
+  "menuListMessage": {
+    "message": "Nachricht mit Google übersetzen"
+  },
+  "notifyTitle": {
+    "message": "Correct Mail Translate"
+  },
+  "notifyClipboard": {
+    "message": "Der Text ist zu lang für eine direkte Übergabe ($1 Zeichen). Er liegt in der Zwischenablage – auf der Google-Seite mit Strg+V einfügen."
+  },
+  "notifyTooLong": {
+    "message": "Hinweis: Google übersetzt auf der Webseite höchstens 5.000 Zeichen auf einmal. Der Text ($1 Zeichen) liegt in der Zwischenablage – bei Bedarf in Teilen einfügen."
+  },
+  "notifyNoText": {
+    "message": "Es wurde kein Text zum Übersetzen gefunden."
+  },
+  "notifyError": {
+    "message": "Fehler: $1"
+  },
+  "optTitle": {
+    "message": "Correct Mail Translate – Einstellungen"
+  },
+  "optTarget": {
+    "message": "Zielsprache"
+  },
+  "optTargetAuto": {
+    "message": "Wie Thunderbird ($1)"
+  },
+  "optUnwrap": {
+    "message": "Hart umbrochene Zeilen zu ganzen Sätzen zusammenfügen"
+  },
+  "optUnwrapHint": {
+    "message": "Nur-Text-Mails sind oft nach etwa 72 Zeichen umbrochen. Zusammengefügt übersetzt Google ganze Sätze statt Zeilenstücke."
+  },
+  "optPrivacy": {
+    "message": "Datenschutz: Der zu übersetzende Text wird erst beim Klick auf einen Menüeintrag an translate.google.com übergeben und dort im Browser übersetzt. Das Add-on selbst speichert oder sendet keine Daten."
+  },
+  "optSaved": {
+    "message": "Gespeichert ✓"
+  },
+  "optSave": {
+    "message": "Speichern"
+  }
+}

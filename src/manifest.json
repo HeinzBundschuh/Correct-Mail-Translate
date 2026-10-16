@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "1.0.0",
+  "author": "Heinz Bundschuh",
+  "homepage_url": "https://github.com/HeinzBundschuh/correct-mail-translate",
+  "default_locale": "en",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "correct-mail-translate@heinz.at",
+      "strict_min_version": "128.0"
+    }
+  },
+  "permissions": [
+    "menus",
+    "messagesRead",
+    "scripting",
+    "storage",
+    "clipboardWrite",
+    "notifications"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "96": "icon.svg"
+  }
+}
